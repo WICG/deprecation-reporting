@@ -33,16 +33,11 @@ spec: ECMASCRIPT; urlPrefix: https://tc39.github.io/ecma262/
   <div class="example">
     Example, Inc. wants to keep track of when users are using Web APIs on its
     site which are going to be removed in upcoming browser versions. It can do
-    this by delivering the following header to define a reporting endpoint, and
-    direct deprecation reports to it:
+    this by delivering the following header to define a default reporting
+    endpoint, which will direct deprecation reports there:
 
     <pre>
-      Report-To: { "group": "default",
-                   "max_age": 10886400,
-                   "endpoints": [
-                     { "url": "https://example.com/reports", "priority": 1 },
-                     { "url": "https://backup.com/reports", "priority": 2 }
-                   ] }
+      Reporting-Endpoints: default="https://example.com/reports"
     </pre>
 
 </section>
