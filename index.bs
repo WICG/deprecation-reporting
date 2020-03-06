@@ -1,6 +1,6 @@
 <h1>Deprecation Reporting</h1>
 <pre class="metadata">
-Status: ED
+Status: w3c/CG-DRAFT
 ED: https://wicg.github.io/deprecation-reporting/
 Shortname: deprecation-reporting
 Group: WICG
